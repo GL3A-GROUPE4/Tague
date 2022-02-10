@@ -21,9 +21,10 @@ class MontreTest {
         Assertions.assertEquals("10 h 25 m" , montre.afficheHeure());
     }
 
-    //    Test d'une montre clone
+    //    Test d'un clone de montre  
     @Test
     void cloneTest(){
         Assertions.assertEquals(montre.afficheHeure() , montre2.afficheHeure());
     }
+
 }
